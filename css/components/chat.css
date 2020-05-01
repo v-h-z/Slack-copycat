@@ -1,0 +1,51 @@
+.channel {
+  padding: 15px;
+  height: 100vh;
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.channel-title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  font-size: 24px;
+}
+
+.channel-title p {
+  margin: 0;
+  line-height: 1;
+  margin-bottom: 4px;
+  margin-left: 6px;
+  font-weight: 700;
+}
+
+.chat-window {
+  flex: flex-grow;
+}
+
+.chat-message {
+  display: flex;
+}
+
+.chat-message .content {
+  margin-top: 10px;
+}
+
+.chat-message .content .username {
+  font-weight: bold;
+  margin: 0;
+}
+
+.chat-message .content .p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.message-input {
+
+}

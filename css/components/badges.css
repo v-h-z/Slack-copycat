@@ -1,0 +1,24 @@
+.workspace-badge {
+  background-color: #504A50;
+  color: white;
+  border-radius: 3px;
+  padding: 6px 8px;
+  margin: 15px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.green-light.on {
+  background-color: #6BE1BF;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+.green-light.off {
+  background-color: #A49DA4;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}

@@ -1,0 +1,69 @@
+.workspaces {
+  background-color: #241D24;
+}
+
+.sidebar  {
+  background-color: #483A48;
+  color: white;
+  padding: 15px;
+}
+
+.category-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-name p {
+  margin: 0;
+  padding-right: 15px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.category-name i {
+  margin: 10px;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+}
+
+.username p {
+  line-height: 1;
+  margin: 0;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+
+.workspace-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.channel-name {
+  display: flex;
+  align-items: center;
+  font-weight: lighter;
+  opacity: 0.6;
+  font-size: 0.95em;
+  margin-bottom: 10px;
+}
+
+.channel-name.active {
+  opacity: 1
+}
+
+.channel-name p {
+  margin: 0;
+  line-height: 1;
+}
+
+.channel-name i {
+  margin-right: 6px;
+}
+
+.channel-name .green-light {
+    margin-right: 6px;
+}
